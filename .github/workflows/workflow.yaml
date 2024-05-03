@@ -9,13 +9,12 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [15.x]
     steps:
       - name: checkout
         uses: actions/checkout@v2
-
-      - name: setupnode
-        uses: actions/setup-node@v2
-
 
       - run: yarn install
       - run: yarn build
