@@ -1,0 +1,22 @@
+.contact {
+  background-color: #6dc1f8;
+  border: 2px solid gainsboro;
+  display: flex;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+.contact p {
+    display: inline-block;
+  text-align: inherit;
+  text-overflow: ellipsis;
+  max-width: 300px;
+font-weight:600px;
+}
+.contact h1{
+    font-size: 40px;
+}

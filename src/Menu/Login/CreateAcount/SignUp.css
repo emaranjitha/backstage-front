@@ -1,0 +1,85 @@
+/* Container Styling */
+.Container {
+  display: flex;
+   width: 65%;
+  justify-content: center;
+  align-items: center;
+  padding: 0%;
+  box-shadow: 1px 2px 2px #592941;
+  border: 0.1em solid #592941;
+  border-radius: 0.5em;
+
+  background-color: #6dc1f8;
+}
+.login{
+  font-size: 30px;
+  font-weight: 800;
+  color: #053e52;
+}
+label{
+  font-size: 18px;
+  font-weight: 700;
+  padding-right: 5px;
+}
+.sign-up-form {
+  padding: 0%;
+  width: 50%;
+  flex-direction: column;
+}
+
+.sign-up-form > label {
+  padding: 0.5em;
+  width: 100%;
+}
+
+.sign-up-form > label > input {
+  width: 100%;
+}
+
+/* All Buttons Styling */
+button {
+  border: 1px solid #eefcf8;
+  border-radius: 5em;
+
+  background-color: #035e7b;
+
+  color: #eefcf8;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* All Inputs Styling */
+input {
+  padding: 0.5em;
+  border: 1px solid #035e7b;
+}
+@media (max-width: 900px){
+
+.login{
+  font-size: 14px;
+  font-weight: 800;
+  color: #053e52;
+
+}
+.Container {
+padding: 10px;
+
+}
+.sign-up-form {
+  margin: 0;
+}
+.sign-up-form {
+  padding: 0px;
+}
+}
+

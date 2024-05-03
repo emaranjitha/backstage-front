@@ -1,0 +1,40 @@
+.foot {
+  background-color: #000000;
+  padding: 0px;
+}
+.foot p{
+  color: aliceblue;
+  padding-top: 4px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons a {
+  padding: 4px;
+}
+.icons a:hover {
+  animation: spinAround 2s linear infinite;
+}
+
+.icons a:hover {
+  background: rgb(255, 255, 255);
+  color: #387dac;
+  border-radius: 18px;
+}
+
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+.foot {
+  width: 100%;
+}
+    }
